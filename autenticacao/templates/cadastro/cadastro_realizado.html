@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'title' %}Página inicial{% endblock %}
+
+{% block 'head' %}
+<link rel="stylesheet" href="{% static 'css/cadastro.css' %}">
+{% endblock %}
+
+
+{% block 'body' %}
+    <div class="container">
+        <h1 id="titulo">Cadrastro realizado</h1>
+        <h4 id="subtitulo">Clique no link a seguir para assistir sua videoaula: <a href="#">Aqui</a></h4>
+        <img id="imagem" src="{{caminho_convite}}" alt="convite_evento">
+    </div>
+{% endblock %}

@@ -1,0 +1,16 @@
+#titulo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#subtitulo{
+    text-align: center;
+    
+}
+
+#imagem{
+
+    width: 20%; 
+    left: 40%;
+    margin-top: 20px;
+}

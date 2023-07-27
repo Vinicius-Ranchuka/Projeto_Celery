@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'title' %}Página inicial{% endblock %}
+
+{% block 'head' %}
+<link rel="stylesheet" href="{% static 'css/cadastro.css' %}">
+{% endblock %}
+
+
+{% block 'body' %}
+    <div class="container">
+        <h1 id="titulo">Cadrastro</h1>
+        <h4 id="subtitulo">Preencha os campos abaixo para confirmar seu cadastro e receber o link da aula</h4>
+        <div class="container">
+            <form method="POST" action="{% url 'cadastro' %}">{% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" name="submit" class="btn btn-success">Enviar</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}
