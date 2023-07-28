@@ -1,4 +1,7 @@
 # Projeto_Celery
+
+## Este projeto está em desenvolvimento e ainda está sendo atualizado.
+
 ### Neste projeto, desenvolvi um website que simula uma plataforma de venda de cursos, exigindo que o usuário forneça seu nome e e-mail para ter acesso à aula gratuita, a qual o convida para participar do curso.
 
 ## Pré-requisitos
