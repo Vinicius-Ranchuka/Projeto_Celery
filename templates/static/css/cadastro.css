@@ -1,3 +1,11 @@
+body {
+    background-color: aliceblue;
+}
+.container {
+    position: relative;
+
+    padding-bottom: 10px;
+}
 #titulo {
     text-align: center;
     margin-top: 10px;

@@ -20,14 +20,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
+        
       </nav>
 
       {% if messages %}
@@ -37,18 +30,14 @@
           </div>
         {% endfor %}
       {% endif %}
-
-      {% block 'body' %}{% endblock %}
+      <div id="content">
+        {% block 'body' %}{% endblock %}
+      </div>
       <footer id="footer">
-        <div id="caixa_footer">
+        <div class="caixa_footer">
           <p>Email: v.ranchuka@gmail.com</p>
-          <p>
-            Linkendin: <a href="https://www.linkedin.com/in/vinicius-ranchuka-80706b285/">https://www.linkedin.com/in/vinicius-ranchuka-80706b285/</a>
-          </p>
-          <p>
-            GitHub: <a href="https://github.com/Vinicius-Ranchuka">https://github.com/Vinicius-Ranchuka</a>
-          </p>
-
+          <p>Linkendin: <a href="https://www.linkedin.com/in/vinicius-ranchuka-80706b285/">https://www.linkedin.com/in/vinicius-ranchuka-80706b285/</a></p>
+          <p>GitHub: <a href="https://github.com/Vinicius-Ranchuka">https://github.com/Vinicius-Ranchuka</a></p>
         </div>
       </footer>
 </body>
